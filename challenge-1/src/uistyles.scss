@@ -1,0 +1,18 @@
+
+.layout{
+    display: flex;
+    padding: 32px;
+    column-gap: 24px;
+    background: url('./assets/images/backgrounds/background.jpg');
+    & .column{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+ .white-color{
+    color:white
+ }
+@mixin assign_flex_weight($num) {
+    flex: $num;
+}

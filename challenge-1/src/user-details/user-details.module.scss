@@ -1,0 +1,42 @@
+
+@import '../uistyles.scss';
+
+.userDetailsContainer{
+    @include assign_flex_weight(2);
+    align-items: center;
+    
+}
+.userDetailContent{
+    background: maroon;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0px;
+    row-gap: 12px;
+    padding-bottom: 24px;
+}
+
+.circle{
+    border-radius: 50%;
+    border:5px solid white
+}
+
+nav{
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    row-gap: 32px;
+    background: gray;
+    min-width: 90%;
+    a{
+        color: white;
+    }
+}
+
+.btn{
+    background-color: white !important;
+    color:black !important
+}

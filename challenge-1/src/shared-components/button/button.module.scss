@@ -1,0 +1,23 @@
+
+
+ .commonButton{
+    background-color: maroon;
+    text-align: center;
+    color:white;
+    border: none
+ }
+.button{
+    &_primary{
+    @extend .commonButton;
+    transform: skewX(-20deg);
+    padding: 4px 16px;
+    }
+    &_secondary{
+        @extend .commonButton;
+        border-radius: 16px;
+        max-height: 40%;
+        width: 20%;
+        border: none;
+        
+    }
+}

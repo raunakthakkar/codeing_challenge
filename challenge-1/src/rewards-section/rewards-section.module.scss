@@ -1,0 +1,117 @@
+
+@import '../uistyles.scss';
+
+.rewardSectionContainer{
+    @include assign_flex_weight(3);
+    align-items: flex-start;
+}
+.benefitContent{
+    padding:52px;
+    background: linear-gradient(122deg, transparent 25px, maroon 25px, maroon calc( 100% - 25px), transparent calc( 100% - 65px) );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & .benefit_item_content{
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+        border-bottom: 2px solid white;
+        margin: 8px;
+    }
+
+}
+.listContainer{
+    width: 75%;
+    max-width: 75%;
+}
+
+.rewardsContentContainer{
+    display:flex;flex-direction:column;width:100%;align-items:center;
+    row-gap: 8px;
+}
+.reward{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    & .leftSection{
+        display: flex;
+        column-gap: 40px;
+
+    }
+}
+.tierDetails{
+    background: white;
+    border-radius: 6px;
+    width:80%;
+    margin:24px;
+    padding: 24px;
+
+    & .tierDetailsHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+    & .tierDetailsFooter{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+    & .currentTier{
+        display: flex;
+        flex-direction: column;
+        & .caption{
+            font-size: 12px;
+            text-align: start; 
+        }
+        & .tier{
+            font-size: 40px;
+            color:goldenrod
+        }
+    }
+    & .loyaltyNumber{
+        display: flex;
+        flex-direction: column;
+        & .caption{
+            font-size: 12px;
+            text-align: end;
+        }
+        & .number{
+            font-size: 32px;
+        }
+    }
+}
+
+.range {
+    height: 10px;
+    margin-top: -1px;
+    width: 90%;
+}
+
+.circleContainer{
+    display:flex; 
+    column-gap:32px; 
+    min-height:15%; 
+    justify-content:center;
+    width:90%;
+    
+}
+.circle{
+
+    width: 35%;
+    min-height: 25%;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.circle_text{
+    display: flex;
+    align-items: center;
+    height: 85%;
+    justify-content: center;
+    flex-direction: column;
+    color: maroon;
+}

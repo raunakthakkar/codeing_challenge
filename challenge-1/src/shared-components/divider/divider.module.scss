@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding: 16px 0px;
+  }
+  
+  .border{
+    border-bottom: 1px solid grey;
+    width: 100%;
+  }
+  
+  .content {
+    padding: 0 10px 0 10px;
+    color: grey;
+  }

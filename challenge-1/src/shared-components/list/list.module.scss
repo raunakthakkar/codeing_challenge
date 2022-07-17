@@ -1,0 +1,9 @@
+
+.common {
+    & :before{
+    content:attr(data-header);
+    margin-bottom: 8px;
+    }
+
+    line-height: 40px;
+}
